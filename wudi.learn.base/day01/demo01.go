@@ -1,5 +1,12 @@
 package main
 
+import "fmt"
+
 func main() {
-	$END$
+	//1：变量声明
+	var age int
+	//2：赋值
+	age = 18
+	//3：变量的使用
+	fmt.Println("age = ", age)
 }
